@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<trace>
+		<string key="concept:name" value="User_1" />
+		<string key="allowed_duration" value="22.89773520833333" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811689" />
+			<string key="org:resource" value="User_1" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="22.89773520833333" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_24" />
+		<string key="allowed_duration" value="103.29463329166666" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811701" />
+			<string key="org:resource" value="User_24" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="103.29463329166666" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_2" />
+		<string key="allowed_duration" value="234.16897859722218" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811704" />
+			<string key="org:resource" value="User_2" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="234.16897859722218" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_117" />
+		<string key="allowed_duration" value="22.37166427777774" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811707" />
+			<string key="org:resource" value="User_117" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="22.37166427777774" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_99" />
+		<string key="allowed_duration" value="1.7313348611111072" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811709" />
+			<string key="org:resource" value="User_99" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="1.7313348611111072" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_102" />
+		<string key="allowed_duration" value="16.182928666666665" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811712" />
+			<string key="org:resource" value="User_102" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="16.182928666666665" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_114" />
+		<string key="allowed_duration" value="14.577812958333325" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811716" />
+			<string key="org:resource" value="User_114" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="14.577812958333325" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_95" />
+		<string key="allowed_duration" value="5.742150680555553" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811724" />
+			<string key="org:resource" value="User_95" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="5.742150680555553" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_41" />
+		<string key="allowed_duration" value="88.80713238888845" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811728" />
+			<string key="org:resource" value="User_41" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="88.80713238888845" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_113" />
+		<string key="allowed_duration" value="6.060257777777773" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811731" />
+			<string key="org:resource" value="User_113" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="6.060257777777773" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_17" />
+		<string key="allowed_duration" value="57.469238666666186" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811734" />
+			<string key="org:resource" value="User_17" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="57.469238666666186" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_38" />
+		<string key="allowed_duration" value="91.34372772222223" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811736" />
+			<string key="org:resource" value="User_38" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="91.34372772222223" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_19" />
+		<string key="allowed_duration" value="92.01264012499996" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811738" />
+			<string key="org:resource" value="User_19" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="92.01264012499996" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_15" />
+		<string key="allowed_duration" value="504.6493251388889" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811741" />
+			<string key="org:resource" value="User_15" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="504.6493251388889" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_20" />
+		<string key="allowed_duration" value="168.72584530555534" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811743" />
+			<string key="org:resource" value="User_20" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="168.72584530555534" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_116" />
+		<string key="allowed_duration" value="16.377451166666603" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811745" />
+			<string key="org:resource" value="User_116" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="16.377451166666603" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_100" />
+		<string key="allowed_duration" value="4.0692266805555555" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811748" />
+			<string key="org:resource" value="User_100" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="4.0692266805555555" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_34" />
+		<string key="allowed_duration" value="161.88971075" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811750" />
+			<string key="org:resource" value="User_34" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="161.88971075" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_119" />
+		<string key="allowed_duration" value="18.703539652777778" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811752" />
+			<string key="org:resource" value="User_119" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="18.703539652777778" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_43" />
+		<string key="allowed_duration" value="75.04983711111095" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811754" />
+			<string key="org:resource" value="User_43" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="75.04983711111095" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_44" />
+		<string key="allowed_duration" value="240.17102944444446" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811757" />
+			<string key="org:resource" value="User_44" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="240.17102944444446" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_30" />
+		<string key="allowed_duration" value="3.8563079305555505" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811759" />
+			<string key="org:resource" value="User_30" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="3.8563079305555505" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_75" />
+		<string key="allowed_duration" value="1.7588813888888888" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811762" />
+			<string key="org:resource" value="User_75" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="1.7588813888888888" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_31" />
+		<string key="allowed_duration" value="35.342014277777615" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811766" />
+			<string key="org:resource" value="User_31" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="35.342014277777615" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_3" />
+		<string key="allowed_duration" value="95.9515976111111" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811769" />
+			<string key="org:resource" value="User_3" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="95.9515976111111" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_8" />
+		<string key="allowed_duration" value="741.2282765000001" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811771" />
+			<string key="org:resource" value="User_8" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="741.2282765000001" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_71" />
+		<string key="allowed_duration" value="166.8061608333332" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811774" />
+			<string key="org:resource" value="User_71" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="166.8061608333332" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_115" />
+		<string key="allowed_duration" value="0.06492202777777739" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811778" />
+			<string key="org:resource" value="User_115" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="0.06492202777777739" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_16" />
+		<string key="allowed_duration" value="29.622640222222206" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811781" />
+			<string key="org:resource" value="User_16" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="29.622640222222206" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_7" />
+		<string key="allowed_duration" value="94.83086816666666" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811783" />
+			<string key="org:resource" value="User_7" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="94.83086816666666" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_21" />
+		<string key="allowed_duration" value="434.1294283888889" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811785" />
+			<string key="org:resource" value="User_21" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="434.1294283888889" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_11" />
+		<string key="allowed_duration" value="551.6117041666666" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811787" />
+			<string key="org:resource" value="User_11" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="551.6117041666666" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_27" />
+		<string key="allowed_duration" value="95.93003273611102" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811789" />
+			<string key="org:resource" value="User_27" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="95.93003273611102" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_108" />
+		<string key="allowed_duration" value="111.8632238888889" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811792" />
+			<string key="org:resource" value="User_108" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="111.8632238888889" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_89" />
+		<string key="allowed_duration" value="36.206701333333" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811795" />
+			<string key="org:resource" value="User_89" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="36.206701333333" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_4" />
+		<string key="allowed_duration" value="91.56870433333307" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811797" />
+			<string key="org:resource" value="User_4" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="91.56870433333307" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_112" />
+		<string key="allowed_duration" value="4.444676999999997" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811799" />
+			<string key="org:resource" value="User_112" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="4.444676999999997" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_49" />
+		<string key="allowed_duration" value="215.08948152777776" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811801" />
+			<string key="org:resource" value="User_49" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="215.08948152777776" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_74" />
+		<string key="allowed_duration" value="132.89795930555556" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811804" />
+			<string key="org:resource" value="User_74" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="132.89795930555556" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_33" />
+		<string key="allowed_duration" value="255.25709259722223" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811806" />
+			<string key="org:resource" value="User_33" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="255.25709259722223" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_10" />
+		<string key="allowed_duration" value="121.87284861111111" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811808" />
+			<string key="org:resource" value="User_10" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="121.87284861111111" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_37" />
+		<string key="allowed_duration" value="134.1683193333333" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811810" />
+			<string key="org:resource" value="User_37" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="134.1683193333333" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_127" />
+		<string key="allowed_duration" value="15.372102027777778" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811813" />
+			<string key="org:resource" value="User_127" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="15.372102027777778" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_87" />
+		<string key="allowed_duration" value="2.4864593194444433" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811816" />
+			<string key="org:resource" value="User_87" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="2.4864593194444433" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_5" />
+		<string key="allowed_duration" value="99.49366166666645" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811818" />
+			<string key="org:resource" value="User_5" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="99.49366166666645" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_28" />
+		<string key="allowed_duration" value="95.40673765277778" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811821" />
+			<string key="org:resource" value="User_28" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="95.40673765277778" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_85" />
+		<string key="allowed_duration" value="89.94280090277755" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811824" />
+			<string key="org:resource" value="User_85" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="89.94280090277755" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_68" />
+		<string key="allowed_duration" value="3.5099021527777783" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811826" />
+			<string key="org:resource" value="User_68" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="3.5099021527777783" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_101" />
+		<string key="allowed_duration" value="2.753910166666662" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811829" />
+			<string key="org:resource" value="User_101" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="2.753910166666662" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_90" />
+		<string key="allowed_duration" value="0.05630415277777774" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811831" />
+			<string key="org:resource" value="User_90" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="0.05630415277777774" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_29" />
+		<string key="allowed_duration" value="4.479608694444459" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811833" />
+			<string key="org:resource" value="User_29" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="4.479608694444459" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_13" />
+		<string key="allowed_duration" value="39.514452722221904" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811836" />
+			<string key="org:resource" value="User_13" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="39.514452722221904" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_52" />
+		<string key="allowed_duration" value="44.162359277777774" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811840" />
+			<string key="org:resource" value="User_52" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="44.162359277777774" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_22" />
+		<string key="allowed_duration" value="88.40750355555556" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811843" />
+			<string key="org:resource" value="User_22" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="88.40750355555556" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_92" />
+		<string key="allowed_duration" value="134.66137444444445" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811846" />
+			<string key="org:resource" value="User_92" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="134.66137444444445" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_47" />
+		<string key="allowed_duration" value="165.67994916666524" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811848" />
+			<string key="org:resource" value="User_47" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="165.67994916666524" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_14" />
+		<string key="allowed_duration" value="128.0624996249998" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811851" />
+			<string key="org:resource" value="User_14" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="128.0624996249998" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_120" />
+		<string key="allowed_duration" value="43.33463288888888" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811853" />
+			<string key="org:resource" value="User_120" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="43.33463288888888" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_109" />
+		<string key="allowed_duration" value="1.7807287777777772" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811855" />
+			<string key="org:resource" value="User_109" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="1.7807287777777772" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_35" />
+		<string key="allowed_duration" value="109.93285690277776" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811858" />
+			<string key="org:resource" value="User_35" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="109.93285690277776" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_26" />
+		<string key="allowed_duration" value="253.90691256944447" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811859" />
+			<string key="org:resource" value="User_26" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="253.90691256944447" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_42" />
+		<string key="allowed_duration" value="0.5752914027777778" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811861" />
+			<string key="org:resource" value="User_42" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="0.5752914027777778" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_118" />
+		<string key="allowed_duration" value="17.55586577777776" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811864" />
+			<string key="org:resource" value="User_118" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="17.55586577777776" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_6" />
+		<string key="allowed_duration" value="36.08526902777774" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811866" />
+			<string key="org:resource" value="User_6" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="36.08526902777774" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_70" />
+		<string key="allowed_duration" value="0.028694624999999998" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811868" />
+			<string key="org:resource" value="User_70" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="0.028694624999999998" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_9" />
+		<string key="allowed_duration" value="161.87292806944433" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811871" />
+			<string key="org:resource" value="User_9" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="161.87292806944433" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_12" />
+		<string key="allowed_duration" value="253.7517684166665" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811874" />
+			<string key="org:resource" value="User_12" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="253.7517684166665" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_110" />
+		<string key="allowed_duration" value="64.5307425277777" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811876" />
+			<string key="org:resource" value="User_110" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="64.5307425277777" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_25" />
+		<string key="allowed_duration" value="63.3282885" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811878" />
+			<string key="org:resource" value="User_25" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="63.3282885" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_36" />
+		<string key="allowed_duration" value="0.71573325" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811880" />
+			<string key="org:resource" value="User_36" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="0.71573325" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_18" />
+		<string key="allowed_duration" value="183.21010241666667" />
+		<event>
+			<string key="concept:name" value="PolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-01T14:57:17.811882" />
+			<string key="org:resource" value="User_18" />
+			<int key="duration" value="0" />
+			<string key="policy_type" value="duration" />
+			<string key="threshold" value="183.21010241666667" />
+		</event>
+	</trace>
+</log>

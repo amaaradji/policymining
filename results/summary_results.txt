@@ -1,0 +1,20 @@
+Policy Violation Detection Results Summary
+===========================================
+
+Total events analyzed: 7959
+Total true violations: 431 (5.42%)
+
+Performance Metrics:
+Event log only method: Precision=1.0000, Recall=1.0000, F1=1.0000
+Policy-aware method: Precision=1.0000, Recall=1.0000, F1=1.0000
+
+Trace Alignment Results:
+Average normalized edit distance (Event Log Only): 0.0000
+Average normalized edit distance (Policy-Aware): 0.0000
+
+Top 5 Resources by Violation Rate:
+  User_42: 50.00% (1 out of 2 events)
+  User_35: 50.00% (1 out of 2 events)
+  User_18: 50.00% (1 out of 2 events)
+  User_25: 33.33% (1 out of 3 events)
+  User_70: 33.33% (1 out of 3 events)
