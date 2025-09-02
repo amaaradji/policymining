@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<trace>
+		<string key="concept:name" value="User_1" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662810" />
+			<string key="org:resource" value="User_1" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_17" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662829" />
+			<string key="org:resource" value="User_17" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_52" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662838" />
+			<string key="org:resource" value="User_52" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_11" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662846" />
+			<string key="org:resource" value="User_11" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_117" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662853" />
+			<string key="org:resource" value="User_117" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_115" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662860" />
+			<string key="org:resource" value="User_115" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_2" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662866" />
+			<string key="org:resource" value="User_2" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_38" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662879" />
+			<string key="org:resource" value="User_38" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_119" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662888" />
+			<string key="org:resource" value="User_119" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_30" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662896" />
+			<string key="org:resource" value="User_30" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_68" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662903" />
+			<string key="org:resource" value="User_68" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_19" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662910" />
+			<string key="org:resource" value="User_19" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_116" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662917" />
+			<string key="org:resource" value="User_116" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_101" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662924" />
+			<string key="org:resource" value="User_101" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_34" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662931" />
+			<string key="org:resource" value="User_34" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_31" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662937" />
+			<string key="org:resource" value="User_31" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_90" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662944" />
+			<string key="org:resource" value="User_90" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_89" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662951" />
+			<string key="org:resource" value="User_89" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_15" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662957" />
+			<string key="org:resource" value="User_15" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_16" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662962" />
+			<string key="org:resource" value="User_16" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_12" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662968" />
+			<string key="org:resource" value="User_12" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_3" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662974" />
+			<string key="org:resource" value="User_3" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_102" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662980" />
+			<string key="org:resource" value="User_102" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_114" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662987" />
+			<string key="org:resource" value="User_114" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_118" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.662994" />
+			<string key="org:resource" value="User_118" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_95" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663001" />
+			<string key="org:resource" value="User_95" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_8" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663007" />
+			<string key="org:resource" value="User_8" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_113" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663013" />
+			<string key="org:resource" value="User_113" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_100" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663020" />
+			<string key="org:resource" value="User_100" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_28" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663027" />
+			<string key="org:resource" value="User_28" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_27" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663033" />
+			<string key="org:resource" value="User_27" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_99" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663041" />
+			<string key="org:resource" value="User_99" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_112" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663048" />
+			<string key="org:resource" value="User_112" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_75" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663056" />
+			<string key="org:resource" value="User_75" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_21" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663063" />
+			<string key="org:resource" value="User_21" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_87" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663070" />
+			<string key="org:resource" value="User_87" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_20" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663077" />
+			<string key="org:resource" value="User_20" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_43" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663083" />
+			<string key="org:resource" value="User_43" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_108" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663089" />
+			<string key="org:resource" value="User_108" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_10" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663095" />
+			<string key="org:resource" value="User_10" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_29" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663100" />
+			<string key="org:resource" value="User_29" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_4" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663107" />
+			<string key="org:resource" value="User_4" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_71" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663113" />
+			<string key="org:resource" value="User_71" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_37" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663119" />
+			<string key="org:resource" value="User_37" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_85" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663125" />
+			<string key="org:resource" value="User_85" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_7" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663131" />
+			<string key="org:resource" value="User_7" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_13" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663137" />
+			<string key="org:resource" value="User_13" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_41" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663144" />
+			<string key="org:resource" value="User_41" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_14" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663151" />
+			<string key="org:resource" value="User_14" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_5" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663156" />
+			<string key="org:resource" value="User_5" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_120" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663163" />
+			<string key="org:resource" value="User_120" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_18" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663169" />
+			<string key="org:resource" value="User_18" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_22" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663175" />
+			<string key="org:resource" value="User_22" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_127" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663183" />
+			<string key="org:resource" value="User_127" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_110" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663189" />
+			<string key="org:resource" value="User_110" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_33" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663214" />
+			<string key="org:resource" value="User_33" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_9" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663220" />
+			<string key="org:resource" value="User_9" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_24" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663226" />
+			<string key="org:resource" value="User_24" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_6" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663233" />
+			<string key="org:resource" value="User_6" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_109" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663239" />
+			<string key="org:resource" value="User_109" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_70" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663245" />
+			<string key="org:resource" value="User_70" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_47" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663251" />
+			<string key="org:resource" value="User_47" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_44" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663257" />
+			<string key="org:resource" value="User_44" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_35" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663264" />
+			<string key="org:resource" value="User_35" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_26" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663271" />
+			<string key="org:resource" value="User_26" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_74" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663277" />
+			<string key="org:resource" value="User_74" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_42" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663283" />
+			<string key="org:resource" value="User_42" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_49" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663289" />
+			<string key="org:resource" value="User_49" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_25" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663295" />
+			<string key="org:resource" value="User_25" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_92" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663317" />
+			<string key="org:resource" value="User_92" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="User_36" />
+		<string key="availability_start" value="09:00" />
+		<string key="availability_end" value="17:00" />
+		<string key="availability_days" value="0,1,2,3,4" />
+		<event>
+			<string key="concept:name" value="AvailabilityPolicyDefinition" />
+			<date key="time:timestamp" value="2025-09-02T02:25:17.663329" />
+			<string key="org:resource" value="User_36" />
+			<string key="policy_type" value="availability" />
+			<string key="start_time" value="09:00" />
+			<string key="end_time" value="17:00" />
+			<string key="days" value="0,1,2,3,4" />
+		</event>
+	</trace>
+</log>

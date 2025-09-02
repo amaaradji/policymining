@@ -1,0 +1,90 @@
+Violation Information
+====================
+
+Total events: 7959
+Total violations: 397
+Violation rate: 5.00%
+
+Violations by Resource:
+  User_99: 8
+  User_17: 11
+  User_1: 50
+  User_75: 8
+  User_100: 15
+  User_11: 7
+  User_95: 12
+  User_30: 3
+  User_3: 16
+  User_119: 11
+  User_2: 11
+  User_113: 10
+  User_43: 5
+  User_8: 11
+  User_38: 8
+  User_52: 2
+  User_29: 6
+  User_90: 4
+  User_24: 13
+  User_7: 9
+  User_41: 4
+  User_87: 9
+  User_112: 5
+  User_27: 2
+  User_19: 7
+  User_15: 9
+  User_117: 9
+  User_4: 3
+  User_49: 1
+  User_68: 7
+  User_116: 14
+  User_20: 5
+  User_10: 14
+  User_31: 3
+  User_16: 18
+  User_14: 2
+  User_108: 3
+  User_89: 6
+  User_22: 1
+  User_47: 3
+  User_102: 6
+  User_115: 4
+  User_114: 8
+  User_5: 3
+  User_127: 2
+  User_37: 3
+  User_44: 2
+  User_85: 2
+  User_13: 1
+  User_120: 4
+  User_34: 5
+  User_118: 5
+  User_12: 1
+  User_71: 2
+  User_101: 1
+  User_21: 2
+  User_74: 1
+
+Violations by Activity:
+  W_Validate application: 77
+  A_Create Application: 12
+  W_Complete application: 53
+  A_Pending: 7
+  W_Handle leads: 10
+  O_Sent (mail and online): 14
+  A_Concept: 16
+  A_Complete: 10
+  W_Call incomplete files: 44
+  W_Call after offers: 50
+  O_Create Offer: 21
+  A_Cancelled: 6
+  A_Accepted: 12
+  A_Incomplete: 7
+  O_Accepted: 6
+  O_Cancelled: 10
+  A_Validating: 10
+  O_Returned: 6
+  A_Denied: 1
+  A_Submitted: 4
+  O_Sent (online only): 2
+  O_Refused: 4
+  O_Created: 15

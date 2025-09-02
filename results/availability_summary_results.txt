@@ -1,0 +1,16 @@
+Resource Availability Violation Detection Results Summary
+====================================================
+
+Total events analyzed: 7959
+Total injected violations: 397 (5.00%)
+
+Performance Metrics:
+Event log only method: Precision=0.1908, Recall=0.5214, F1=0.2794
+Policy-aware method: Precision=0.1207, Recall=1.0000, F1=0.2154
+
+Top 5 Resources by Violation Count:
+  User_1: 50 violations
+  User_16: 18 violations
+  User_3: 16 violations
+  User_100: 15 violations
+  User_10: 14 violations
