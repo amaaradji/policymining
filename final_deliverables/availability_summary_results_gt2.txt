@@ -1,0 +1,21 @@
+Resource Availability Violation Detection Results Summary (GT2)
+==========================================================
+
+Total events analyzed: 7959
+Total policy violations (GT2): 3289 (41.32%)
+Injected violations: 397 (5.00%)
+
+Performance Metrics (using GT2 - all policy violations as ground truth):
+Event log only method: Precision=0.6175, Recall=0.2037, F1=0.3064
+Policy-aware method: Precision=1.0000, Recall=1.0000, F1=1.0000
+
+Top 5 Resources by Violation Count:
+  User_1: 700 violations
+  User_19: 187 violations
+  User_17: 145 violations
+  User_3: 120 violations
+  User_2: 99 violations
+
+Ground Truth Definition:
+GT2: All policy violations according to formal definitions are considered true violations.
+This approach provides a comprehensive evaluation of detection methods against actual policy compliance.
