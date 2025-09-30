@@ -1,0 +1,6 @@
+case_id,seq,event_activity,event_ts,performer,policy_id,rule_id,amount,T,requires_senior,request_ts,wait_hours,senior_approval_seq,junior_approval_seq,outcome,evidence
+APP_001,6,O_ACCEPTED,2017-03-02T10:34:12+00:00,usr_45,P1,P1.senior_required,25000.0,20000,True,2017-03-01T08:00:00+00:00,26.57,,5,duty_met_via_delegation,senior=False;junior=True;wait=26.6h
+APP_002,6,O_ACCEPTED,2017-03-01T14:45:00+00:00,usr_6,P1,P1.senior_required,15000.0,20000,False,2017-03-01T08:30:00+00:00,6.25,,5,not_applicable,senior=False;junior=True;wait=6.2h
+APP_003,6,O_ACCEPTED,2017-03-01T15:15:00+00:00,usr_11,P1,P1.senior_required,30000.0,20000,True,2017-03-01T09:00:00+00:00,6.25,5,,duty_met,senior=True;junior=False;wait=6.2h
+APP_004,6,O_ACCEPTED,2017-03-02T15:45:00+00:00,usr_16,P1,P1.senior_required,22000.0,20000,True,2017-03-01T09:30:00+00:00,30.25,,5,duty_met_via_delegation,senior=False;junior=True;wait=30.2h
+APP_005,6,O_ACCEPTED,2017-03-01T16:15:00+00:00,usr_21,P1,P1.senior_required,18000.0,20000,False,2017-03-01T10:00:00+00:00,6.25,,5,not_applicable,senior=False;junior=True;wait=6.2h
