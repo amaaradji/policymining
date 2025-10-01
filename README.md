@@ -123,6 +123,8 @@ python policy_engine.py \
 
 ## Testing the Code
 
+> **For Research Paper Evaluation**: See [EVALUATION_GUIDE.md](EVALUATION_GUIDE.md) for comprehensive experimental framework with battery of tests, automated figure generation, and Overleaf packaging.
+
 ### Quick Test with Sample Data
 
 Test the policy engine with provided sample data:

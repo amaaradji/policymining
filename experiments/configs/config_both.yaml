@@ -1,0 +1,26 @@
+# Configuration for Both P1 and P2 Policies
+enabled_policies: ["P1", "P2"]
+
+# P1: Senior Approval Policy
+thresholds:
+  P1_T: 20000
+  P1_delegate_wait_h: 24
+
+activities:
+  TARGET_ACTS: ["O_ACCEPTED", "A_APPROVED"]
+  APPROVAL_ACTS: ["W_Validate application", "W_Complete application", "A_Accepted", "O_Create Offer"]
+  REQUEST_ANCHORS: ["A_SUBMITTED"]
+
+roles:
+  senior_regex: "(?i)(SENIOR|MANAGER)"
+
+# P2: Resource Availability Policy
+availability:
+  default_start_hour: 9
+  default_end_hour: 17
+  default_days: [0, 1, 2, 3, 4]
+  resource_windows: {}
+
+defaults:
+  timezone: "UTC"
+  unknown_role_is_junior: true
