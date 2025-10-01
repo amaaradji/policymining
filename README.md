@@ -41,10 +41,10 @@ The framework augments traditional event logs with policy logs to detect policy 
 │   │   └── config.yaml        # Policy configuration
 │   ├── test_data.csv          # Sample test data
 │   └── README.md              # Detailed policy engine documentation
-├── code/                      # Legacy implementations (for reference)
-│   ├── resource_availability_policy.py   # Original availability-focused implementation
-│   ├── policy_mining.py                  # Policy mining utilities
-│   └── ...
+├── legacy_research_code/      # Original research implementations (archived)
+│   ├── resource_availability_policy.py   # Original paper implementation
+│   ├── policy_mining.py                  # Early policy mining utilities
+│   └── README.md                         # Legacy code documentation
 ├── data/
 │   └── BPI Challenge 2017.xes # BPI2017 dataset
 ├── results/                   # Generated results and visualizations
@@ -89,13 +89,7 @@ python policy_engine.py --events test_data.csv --config config/config.yaml --out
 
 See [policy_engine/README.md](policy_engine/README.md) for detailed documentation.
 
-#### Using Legacy Implementations
-
-The original resource availability implementation is still available:
-
-```bash
-python code/resource_availability_policy.py
-```
+> **Note**: Original research implementations are preserved in `legacy_research_code/` for reproducibility. See [legacy_research_code/README.md](legacy_research_code/README.md) for details.
 
 ## Architecture
 
