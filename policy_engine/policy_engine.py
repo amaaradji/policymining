@@ -155,6 +155,10 @@ class SeniorApprovalPolicy(Policy):
         # Build approvals table
         approvals = case_df[case_df['activity'].isin(self.approval_acts)].copy()
         if not approvals.empty:
+            # Check if role column exists (defensive check)
+            if 'role' not in approvals.columns:
+                logger.warning("'role' column missing in approvals. Using default junior role.")
+                approvals['role'] = 'JUNIOR'
             approvals['is_senior'] = approvals['role'].apply(self.is_senior_role)
         
         return {
@@ -503,7 +507,27 @@ class PolicyEngine:
         
         # Add sequence number
         df['seq'] = df.groupby('case_id').cumcount() + 1
-        
+
+        # Generate role column if missing (for datasets like BPIC 2017)
+        if 'role' not in df.columns:
+            logger.info("'role' column not found in dataset. Generating synthetic roles based on resource names.")
+            senior_regex = re.compile(self.config['roles'].get('senior_regex', '(?i)(SENIOR|MANAGER)'))
+            unknown_is_junior = self.config['defaults'].get('unknown_role_is_junior', True)
+
+            def extract_role(resource_name):
+                """Extract role from resource name using senior_regex pattern."""
+                if pd.isna(resource_name) or not resource_name:
+                    return 'JUNIOR' if unknown_is_junior else 'SENIOR'
+
+                # Check if resource name matches senior pattern
+                if senior_regex.search(str(resource_name)):
+                    return 'SENIOR'
+                else:
+                    return 'JUNIOR'
+
+            df['role'] = df['performer'].apply(extract_role)
+            logger.info(f"Generated roles: {df['role'].value_counts().to_dict()}")
+
         logger.info(f"Loaded {len(df)} events from {len(df['case_id'].unique())} cases")
         return df
     
