@@ -2,7 +2,19 @@
 
 ## Overview
 
-This policy engine implements a general, policy-only conformance checking tool that scans event logs and emits synchronized policy logs. The implementation focuses on Policy P1: "Senior approval if amount ≥ T; delegation allowed after 24h."
+This policy engine implements a general, policy-only conformance checking tool that scans event logs and emits synchronized policy logs. The framework supports multiple policy types and provides an extensible architecture for adding new policies.
+
+## Supported Policies
+
+### Policy P1: Senior Approval with Delegation
+"Senior approval if amount ≥ T; delegation allowed after 24h."
+
+Checks whether high-value cases (amount ≥ threshold) receive appropriate approval from senior resources, with support for delegation after a waiting period.
+
+### Policy P2: Resource Availability Constraints
+"Resources must work within their defined availability windows."
+
+Validates that events occur within permitted working hours and days for each resource. Supports custom availability windows per resource.
 
 ## Architecture
 
@@ -10,28 +22,40 @@ The policy engine follows a modular architecture:
 
 1. **PolicyEngine**: Core engine that processes event logs and applies policies
 2. **Policy Interface**: Abstract base class for all policy implementations
-3. **Policy P1**: Implementation of the senior approval and delegation policy
+3. **Policy Implementations**: P1 (Senior Approval), P2 (Resource Availability)
+4. **Evaluation Framework**: Tools for synthetic violation injection and performance measurement
 
 ## Configuration
 
 The engine is configured via a YAML file with the following parameters:
 
 ```yaml
+# Enabled policies
+enabled_policies: ["P1", "P2"]
+
+# P1: Senior Approval Policy
 thresholds:
   P1_T: 20000               # Amount threshold for senior approval
   P1_delegate_wait_h: 24    # Hours to wait before delegation is allowed
 
 activities:
-  TARGET_ACTS: ["O_ACCEPTED", "A_APPROVED"]  # Activities that require policy checking
-  APPROVAL_ACTS: ["W_Validate application", "W_Complete application", "A_Accepted", "O_Create Offer"]  # Activities that can fulfill approval
-  REQUEST_ANCHORS: ["A_SUBMITTED"]  # Activities that start the approval process
+  TARGET_ACTS: ["O_ACCEPTED", "A_APPROVED"]
+  APPROVAL_ACTS: ["W_Validate application", "A_Accepted"]
+  REQUEST_ANCHORS: ["A_SUBMITTED"]
 
 roles:
-  senior_regex: "(?i)(SENIOR|MANAGER)"  # Regex to identify senior roles
+  senior_regex: "(?i)(SENIOR|MANAGER)"
+
+# P2: Resource Availability Policy
+availability:
+  default_start_hour: 9     # Default work start (9 AM)
+  default_end_hour: 17      # Default work end (5 PM)
+  default_days: [0, 1, 2, 3, 4]  # Monday-Friday
+  resource_windows: {}      # Per-resource custom windows
 
 defaults:
   timezone: "UTC"
-  unknown_role_is_junior: true  # Default behavior for unknown roles
+  unknown_role_is_junior: true
 ```
 
 ## Policy P1 Implementation
@@ -45,9 +69,32 @@ The policy checks:
 
 ## Usage
 
+### Basic Usage
+
+Run policy checking on an event log:
+
 ```bash
-python policy_engine.py --events <event_log.csv> --config <config.yaml> --out <policy_log.csv> --verbose
+python policy_engine.py --events <event_log.csv> --config config.yaml --out policy_log.csv
 ```
+
+With optional resource roles:
+
+```bash
+python policy_engine.py --events events.csv --roles roles.csv --config config.yaml --out policy_log.csv --verbose
+```
+
+### Evaluation Mode
+
+Run with synthetic violation injection to evaluate detection performance:
+
+```bash
+python policy_engine.py --events events.csv --config config.yaml --out policy_log.csv --evaluate --violation-rate 0.05 --eval-out evaluation_results.csv
+```
+
+Parameters:
+- `--evaluate`: Enable evaluation mode with synthetic violations
+- `--violation-rate`: Proportion of events to violate (default: 0.05)
+- `--eval-out`: Path to save evaluation metrics
 
 ## Input Format
 
@@ -90,6 +137,42 @@ The policy engine correctly identifies:
 ## Extensibility
 
 The framework is designed to be extensible:
-1. New policies can be added by implementing the Policy interface
-2. Additional rules can be added to existing policies
-3. Configuration parameters can be adjusted without code changes
+
+### Adding New Policies
+
+1. Create a new class inheriting from `Policy`:
+
+```python
+class MyCustomPolicy(Policy):
+    def __init__(self, policy_id: str, config: Dict):
+        super().__init__(policy_id, config)
+        # Initialize policy-specific parameters
+
+    def prepare_case(self, case_df: pd.DataFrame, context: Dict) -> Dict:
+        # Precompute case-level information
+        return {}
+
+    def evaluate_event(self, event_row: pd.Series, case_state: Dict, context: Dict) -> Optional[Dict]:
+        # Evaluate event and return policy log row or None
+        return {...}
+```
+
+2. Register the policy in `_initialize_policies()` method:
+
+```python
+if 'P3' in enabled_policies:
+    policies.append(MyCustomPolicy("P3", self.config))
+```
+
+3. Add configuration parameters to `config.yaml`
+
+4. Update `enabled_policies` list to include your new policy
+
+## Integration with Existing Code
+
+This unified policy engine reconciles the original resource availability implementation ([resource_availability_policy.py](../code/resource_availability_policy.py)) with a general policy framework:
+
+- **Resource availability checking**: Now available as Policy P2
+- **Senior approval checking**: Implemented as Policy P1
+- **Evaluation framework**: Supports both policies with synthetic violation injection
+- **Unified interface**: All policies use the same abstract base class and engine

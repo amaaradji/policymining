@@ -250,6 +250,141 @@ class SeniorApprovalPolicy(Policy):
         }
 
 
+class ResourceAvailabilityPolicy(Policy):
+    """
+    Implementation of Policy P2: Resource availability constraints.
+    Resources must work within their defined availability windows (working hours/days).
+    """
+
+    def __init__(self, policy_id: str, config: Dict):
+        """
+        Initialize the resource availability policy.
+
+        Args:
+            policy_id: Unique identifier for the policy
+            config: Configuration dictionary with policy parameters
+        """
+        super().__init__(policy_id, config)
+        self.target_acts = set(config['activities'].get('TARGET_ACTS', []))
+        self.default_start_hour = config['availability'].get('default_start_hour', 9)
+        self.default_end_hour = config['availability'].get('default_end_hour', 17)
+        self.default_days = set(config['availability'].get('default_days', [0, 1, 2, 3, 4]))
+
+        # Resource-specific availability windows (can be extended)
+        self.resource_windows = config['availability'].get('resource_windows', {})
+
+        logger.info(f"Initialized {policy_id} with default hours={self.default_start_hour}-{self.default_end_hour}, "
+                   f"days={self.default_days}")
+
+    def get_availability_window(self, resource: str) -> Dict:
+        """
+        Get availability window for a resource.
+
+        Args:
+            resource: Resource identifier
+
+        Returns:
+            Dictionary with start_hour, end_hour, and allowed_days
+        """
+        if resource in self.resource_windows:
+            return self.resource_windows[resource]
+
+        return {
+            'start_hour': self.default_start_hour,
+            'end_hour': self.default_end_hour,
+            'allowed_days': self.default_days
+        }
+
+    def is_within_availability(self, timestamp: datetime, resource: str) -> Tuple[bool, str]:
+        """
+        Check if timestamp is within resource's availability window.
+
+        Args:
+            timestamp: Event timestamp
+            resource: Resource identifier
+
+        Returns:
+            Tuple of (is_available, reason)
+        """
+        window = self.get_availability_window(resource)
+
+        # Check day of week (0=Monday, 6=Sunday)
+        day_of_week = timestamp.weekday()
+        if day_of_week not in window['allowed_days']:
+            return False, f"outside_allowed_days(day={day_of_week})"
+
+        # Check hour of day
+        hour = timestamp.hour
+        if hour < window['start_hour'] or hour >= window['end_hour']:
+            return False, f"outside_working_hours(hour={hour})"
+
+        return True, "within_availability"
+
+    def prepare_case(self, case_df: pd.DataFrame, context: Dict) -> Dict:
+        """
+        Precompute case-level information needed for policy evaluation.
+
+        Args:
+            case_df: DataFrame containing events for a single case
+            context: Additional context information
+
+        Returns:
+            Dictionary with precomputed case state
+        """
+        # No case-level state needed for availability checking
+        return {}
+
+    def evaluate_event(self, event_row: pd.Series, case_state: Dict, context: Dict) -> Optional[Dict]:
+        """
+        Evaluate a single event against the policy.
+
+        Args:
+            event_row: Series containing event data
+            case_state: Precomputed case state from prepare_case
+            context: Additional context information
+
+        Returns:
+            Dictionary with policy log row data, or None if event is not a target
+        """
+        # Check all activities (availability applies to all events)
+        # If target_acts is specified and not empty, only check those activities
+        if self.target_acts and event_row['activity'] not in self.target_acts:
+            return None
+
+        timestamp = event_row['timestamp']
+        resource = event_row.get('performer', '')
+
+        # Check availability
+        is_available, reason = self.is_within_availability(timestamp, resource)
+
+        # Determine outcome
+        outcome = "duty_met" if is_available else "duty_unmet"
+
+        # Get availability window for evidence
+        window = self.get_availability_window(resource)
+        evidence = (f"day={timestamp.weekday()};hour={timestamp.hour};"
+                   f"window={window['start_hour']}-{window['end_hour']};"
+                   f"days={sorted(window['allowed_days'])};reason={reason}")
+
+        # Return policy log row
+        return {
+            'case_id': event_row['case_id'],
+            'seq': int(event_row['seq']),
+            'event_activity': event_row['activity'],
+            'event_ts': timestamp.isoformat(),
+            'performer': resource,
+            'policy_id': self.policy_id,
+            'rule_id': f"{self.policy_id}.availability_window",
+            'timestamp_day': timestamp.weekday(),
+            'timestamp_hour': timestamp.hour,
+            'allowed_days': str(sorted(window['allowed_days'])),
+            'start_hour': window['start_hour'],
+            'end_hour': window['end_hour'],
+            'outcome': outcome,
+            'evidence': evidence
+        }
+
+
 class PolicyEngine:
     """
     Main policy engine for conformance checking.
@@ -290,17 +425,25 @@ class PolicyEngine:
     def _initialize_policies(self) -> List[Policy]:
         """
         Initialize policy objects based on configuration.
-        
+
         Returns:
             List of initialized policy objects
         """
         policies = []
-        
+
+        # Get enabled policies from configuration
+        enabled_policies = self.config.get('enabled_policies', ['P1'])
+
         # Initialize P1: Senior Approval Policy
-        policies.append(SeniorApprovalPolicy("P1", self.config))
-        
+        if 'P1' in enabled_policies:
+            policies.append(SeniorApprovalPolicy("P1", self.config))
+
+        # Initialize P2: Resource Availability Policy
+        if 'P2' in enabled_policies:
+            policies.append(ResourceAvailabilityPolicy("P2", self.config))
+
         # Additional policies can be added here
-        
+
         return policies
     
     def load_events(self, events_path: str) -> pd.DataFrame:
@@ -545,16 +688,66 @@ def main():
     parser.add_argument('--config', required=True, help='Path to configuration YAML file')
     parser.add_argument('--out', required=True, help='Path to output policy log CSV file')
     parser.add_argument('--verbose', action='store_true', help='Enable verbose logging')
-    
+    parser.add_argument('--evaluate', action='store_true', help='Run evaluation with synthetic violations')
+    parser.add_argument('--violation-rate', type=float, default=0.05, help='Violation injection rate for evaluation (default: 0.05)')
+    parser.add_argument('--eval-out', help='Path to save evaluation results (for --evaluate mode)')
+
     args = parser.parse_args()
-    
+
     # Set logging level
     if args.verbose:
         logger.setLevel(logging.DEBUG)
-    
+
     # Run policy engine
     engine = PolicyEngine(args.config)
-    engine.run(args.events, args.roles, args.out)
+
+    if args.evaluate:
+        # Evaluation mode: inject violations and measure performance
+        logger.info("Running in evaluation mode with synthetic violation injection")
+
+        # Load events
+        df_events = engine.load_events(args.events)
+        df_roles = engine.load_roles(args.roles) if args.roles else None
+
+        # Inject violations
+        from evaluation import PolicyEvaluator
+        evaluator = PolicyEvaluator()
+
+        # Get availability config from engine config
+        availability_config = engine.config.get('availability', {})
+        df_with_violations = evaluator.inject_availability_violations(
+            df_events,
+            violation_rate=args.violation_rate,
+            availability_config=availability_config
+        )
+
+        # Process events with injected violations
+        policy_log_df = engine.process_events(df_with_violations, df_roles)
+
+        # Evaluate detection performance
+        results = evaluator.evaluate_detection(df_with_violations, policy_log_df)
+
+        # Create comparison DataFrame
+        comparison_df = pd.DataFrame([{
+            'approach': 'Policy-Aware',
+            **results
+        }])
+
+        # Generate summary report
+        summary = evaluator.generate_summary_report(comparison_df)
+        print(summary)
+
+        # Save results if output path specified
+        if args.eval_out:
+            comparison_df.to_csv(args.eval_out, index=False)
+            logger.info(f"Saved evaluation results to {args.eval_out}")
+
+        # Save policy log
+        engine.save_policy_log(policy_log_df, args.out)
+
+    else:
+        # Normal mode: just run policy checking
+        engine.run(args.events, args.roles, args.out)
 
 
 if __name__ == "__main__":

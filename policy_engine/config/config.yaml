@@ -1,3 +1,7 @@
+# Enabled policies: List of policy IDs to enable
+enabled_policies: ["P1", "P2"]
+
+# P1: Senior Approval Policy Configuration
 thresholds:
   P1_T: 20000
   P1_delegate_wait_h: 24
@@ -9,6 +13,27 @@ activities:
 
 roles:
   senior_regex: "(?i)(SENIOR|MANAGER)"
+
+# P2: Resource Availability Policy Configuration
+availability:
+  # Default working hours (9 AM to 5 PM)
+  default_start_hour: 9
+  default_end_hour: 17
+  # Default working days (0=Monday, 6=Sunday)
+  default_days: [0, 1, 2, 3, 4]
+
+  # Resource-specific availability windows (optional)
+  # Example:
+  # resource_windows:
+  #   "User_123":
+  #     start_hour: 8
+  #     end_hour: 16
+  #     allowed_days: [0, 1, 2, 3, 4]
+  #   "User_456":
+  #     start_hour: 14
+  #     end_hour: 22
+  #     allowed_days: [0, 1, 2, 3, 4, 5]
+  resource_windows: {}
 
 defaults:
   timezone: "UTC"
