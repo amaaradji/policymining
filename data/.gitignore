@@ -1,0 +1,10 @@
+# Ignore all dataset files
+*.xes
+*.csv
+*.zip
+*.gz
+*.tar
+*.parquet
+
+# Keep the README
+!README.md

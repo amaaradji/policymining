@@ -60,10 +60,27 @@ cd policymining
 
 # Install dependencies
 pip install pm4py pandas matplotlib numpy seaborn scikit-learn pyyaml
-
-# (Optional) Download BPI2017 dataset
-# https://data.4tu.nl/ndownloader/items/34c3f44b-3101-4ea9-8281-e38905c68b8d/versions/1
 ```
+
+### Download BPI Challenge 2017 Dataset
+
+For research experiments, download the BPIC 2017 dataset:
+
+```bash
+# Download from 4TU.ResearchData
+cd data
+wget https://data.4tu.nl/ndownloader/items/34c3f44b-3101-4ea9-8281-e38905c68b8d/versions/1 -O "BPI Challenge 2017_1_all.zip"
+
+# Extract the dataset
+unzip "BPI Challenge 2017_1_all.zip"
+
+# Verify the main event log exists
+ls -lh "BPI Challenge 2017.xes"
+```
+
+**Alternative**: Download manually from https://doi.org/10.4121/uuid:5f3067df-f10b-45da-b98b-86ae4c7a310b and extract to `data/` directory.
+
+**Dataset Info**: 31,509 loan applications, 1.2M+ events, Feb 2016 - Feb 2017
 
 ## Usage
 
@@ -124,7 +141,34 @@ python policy_engine.py \
 head test_output.csv
 ```
 
-Expected output: Policy log with 10 entries (5 cases × 2 policies)
+**Expected output**: Policy log with 10 entries (5 cases × 2 policies)
+
+### Test with BPIC 2017 Dataset
+
+Run policy checking on the full research dataset:
+
+```bash
+cd policy_engine
+
+# Run on BPIC 2017 dataset (subset for faster testing)
+python policy_engine.py \
+  --events ../data/"BPI Challenge 2017.xes" \
+  --config config/config.yaml \
+  --out ../results/bpic2017_policy_log.csv \
+  --verbose
+
+# For full dataset analysis with evaluation
+python policy_engine.py \
+  --events ../data/"BPI Challenge 2017.xes" \
+  --config config/config.yaml \
+  --out ../results/bpic2017_policy_log.csv \
+  --evaluate \
+  --violation-rate 0.05 \
+  --eval-out ../results/bpic2017_evaluation.csv \
+  --verbose
+```
+
+**Note**: Full dataset processing may take several minutes depending on system resources.
 
 ### Test with Evaluation Mode
 
@@ -324,25 +368,37 @@ my_policy:
 
 ## Repository Contents
 
-- **`policy_engine/`** - Unified policy framework (main implementation)
+### Main Implementation
+
+- **`policy_engine/`** - Unified policy framework (recommended)
   - `policy_engine.py` - Core engine with P1 (Senior Approval) and P2 (Availability) policies
   - `evaluation.py` - Evaluation framework with synthetic violation injection
-  - `config/config.yaml` - Policy configuration file
-  - `test_data.csv` - Sample data for testing
+  - `config/config.yaml` - Policy configuration (thresholds, activities, availability windows)
+  - `test_data.csv` - Sample data (5 cases, 30 events) for quick testing
 
-- **`legacy_research_code/`** - Original research implementations (archived)
-  - Preserved for reproducibility of original paper results
-  - Contains visualization and event-log-only comparison code
-  - Not recommended for new projects
+### Research Materials
 
-- **`paper_sections/`** - LaTeX sections and figures for research paper
-  - `section5_updated.tex` - Updated evaluation section
-  - `*.png` - Violation detection result visualizations
-  - `*.txt` - Summary results from experiments
+- **`data/`** - Event log datasets
+  - `BPI Challenge 2017.xes` - BPIC 2017 dataset (31K cases, 1.2M events) - **download required**
+  - `README.md` - Dataset download instructions and statistics
+  - `.gitignore` - Excludes large data files from version control
 
-- **`data/`** - Event log datasets (BPI2017)
+- **`paper_sections/`** - Research paper LaTeX sections and figures
+  - `section5_updated*.tex` - Evaluation sections for paper
+  - `*.png` - Violation detection visualizations (precision/recall/F1)
+  - `*.txt` - Experimental result summaries
 
-- **`results/`** - Generated analysis results and visualizations
+- **`results/`** - Generated analysis outputs
+  - Policy logs (CSV format)
+  - Evaluation metrics
+  - Visualizations (created by running experiments)
+
+### Archived Code
+
+- **`legacy_research_code/`** - Original research implementations
+  - Preserved for reproducibility of original paper experiments
+  - Contains specialized visualization and event-log-only comparison features
+  - Not recommended for new projects - use `policy_engine/` instead
 
 ## Research Paper
 
