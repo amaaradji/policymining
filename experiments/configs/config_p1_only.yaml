@@ -7,9 +7,9 @@ thresholds:
   P1_delegate_wait_h: 24
 
 activities:
-  TARGET_ACTS: ["O_ACCEPTED", "A_APPROVED"]
+  TARGET_ACTS: ["O_Accepted", "A_Accepted"]
   APPROVAL_ACTS: ["W_Validate application", "W_Complete application", "A_Accepted", "O_Create Offer"]
-  REQUEST_ANCHORS: ["A_SUBMITTED"]
+  REQUEST_ANCHORS: ["A_Submitted"]
 
 roles:
   senior_regex: "(?i)(SENIOR|MANAGER)"

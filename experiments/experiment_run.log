@@ -1,0 +1,58 @@
+
+================================================================================
+EXPERIMENT 1: Policy Type Comparison
+================================================================================
+
+================================================================================
+EXPERIMENT 2: Violation Rate Sensitivity Analysis
+================================================================================
+
+================================================================================
+EXPERIMENT 3: Ground Truth Comparison (GT1 vs GT2)
+================================================================================
+
+================================================================================
+EXPERIMENT 4: Scalability Analysis
+================================================================================
+
+
+Total experiments to run: 20
+This may take a while depending on your system...
+
+Starting experiments...
+
+
+[1/20] Exp1: p1_only with 200 cases
+
+================================================================================
+Running: Exp1: p1_only with 200 cases
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_p1_only.yaml --out D:\GitHub\policymining\results\exp1_p1_only_200cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out D:\GitHub\policymining\results\exp1_p1_only_200cases_eval.csv --verbose
+================================================================================
+Completed in 332.47 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.0000
+  Recall:    0.0000
+  F1 Score:  0.0000
+
+  True Positives:  0
+  False Positives: 0
+  False Negatives: 60113
+  True Negatives:  1142154
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 0
+
+============================================================
+
+
+[2/20] Exp1: p1_only with 500 cases
+
+================================================================================
+Running: Exp1: p1_only with 500 cases
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_p1_only.yaml --out D:\GitHub\policymining\results\exp1_p1_only_500cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out D:\GitHub\policymining\results\exp1_p1_only_500cases_eval.csv --verbose
+================================================================================

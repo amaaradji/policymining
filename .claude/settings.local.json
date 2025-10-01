@@ -10,7 +10,12 @@
       "Bash(git mv:*)",
       "Bash(git rm:*)",
       "Bash(git reset:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(unzip:*)",
+      "Bash(gunzip:*)",
+      "Bash(pip install:*)",
+      "Bash(tee:*)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []
