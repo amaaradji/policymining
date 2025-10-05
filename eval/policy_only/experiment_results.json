@@ -1,0 +1,105 @@
+{
+  "experiment_summary": {
+    "e1_base_prevalence": {
+      "total_evaluations": 2748,
+      "total_cases": 2748,
+      "outcomes": {
+        "not_applicable": {
+          "count": 2165,
+          "rate": 0.7878457059679768,
+          "percentage": "78.78%"
+        },
+        "duty_met": {
+          "count": 500,
+          "rate": 0.1819505094614265,
+          "percentage": "18.20%"
+        },
+        "duty_met_via_delegation": {
+          "count": 16,
+          "rate": 0.005822416302765648,
+          "percentage": "0.58%"
+        },
+        "duty_unmet": {
+          "count": 67,
+          "rate": 0.02438136826783115,
+          "percentage": "2.44%"
+        }
+      },
+      "applicable_only": {
+        "count": 583,
+        "violation_rate": 0.11492281303602059,
+        "delegation_rate": 0.0274442538593482,
+        "senior_approval_rate": 0.8576329331046312
+      },
+      "wait_hours_stats": {
+        "mean": 431.80662959460847,
+        "median": 340.9671326388889,
+        "std": 292.49719453336064,
+        "min": 49.83944416666667,
+        "max": 3251.708118055556
+      }
+    },
+    "e2_sensitivity": {
+      "parameter_ranges": {
+        "T": [
+          15000,
+          20000,
+          25000
+        ],
+        "delta_hours": [
+          12,
+          24,
+          36
+        ]
+      },
+      "violation_rate_range": {
+        "min": 0.5231560891938251,
+        "max": 0.7864823348694316,
+        "mean": 0.6567333615416391
+      },
+      "most_lenient": {
+        "T": 25000.0,
+        "delta_hours": 12.0,
+        "total": 2748.0,
+        "not_applicable": 2165.0,
+        "duty_met": 278.0,
+        "duty_met_via_delegation": 0.0,
+        "duty_unmet": 305.0,
+        "applicable_cases": 583.0,
+        "violation_rate": 0.5231560891938251,
+        "delegation_rate": 0.0
+      },
+      "most_strict": {
+        "T": 15000.0,
+        "delta_hours": 12.0,
+        "total": 2748.0,
+        "not_applicable": 1446.0,
+        "duty_met": 278.0,
+        "duty_met_via_delegation": 0.0,
+        "duty_unmet": 1024.0,
+        "applicable_cases": 1302.0,
+        "violation_rate": 0.7864823348694316,
+        "delegation_rate": 0.0
+      }
+    },
+    "e3_policy_value": {
+      "total_cases_with_target_events": 2748,
+      "cases_flagged_by_policy": 67,
+      "policy_value_added_rate": 0.02438136826783115,
+      "interpretation": "Policy detected violations in 67/2748 cases (2.4%) that completed their control flow successfully. These violations would be invisible to traditional control-flow conformance checking."
+    },
+    "e4_early_warning": {
+      "total_junior_approvals": 16,
+      "alarms_raised": 16,
+      "true_violations_in_junior": 0,
+      "precision": 0.0,
+      "avg_lead_time_hours": 871.2968659548611,
+      "interpretation": "Heuristic raised 16 alarms for cases with junior approval where wait \u2265 24h. Precision: 0.0%. Average lead time: 871.3h (36.3 days)."
+    }
+  },
+  "dataset_info": {
+    "policy_log_path": "eval\\policy_only\\policy_log.csv",
+    "total_evaluations": 2748,
+    "total_cases": 2748
+  }
+}

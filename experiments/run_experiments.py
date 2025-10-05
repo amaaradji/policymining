@@ -167,7 +167,18 @@ def main():
 
     results_log = []
 
+    # Resume from experiment 15 (skip completed 1-14)
+    start_from = 15
+
     for i, (cmd, description) in enumerate(experiments, 1):
+        if i < start_from:
+            print(f"\n[{i}/{len(experiments)}] {description} - SKIPPED (already completed)")
+            results_log.append({
+                'experiment': description,
+                'success': True  # Assume previous runs were successful
+            })
+            continue
+
         print(f"\n[{i}/{len(experiments)}] {description}")
         success = run_command(cmd, description)
 

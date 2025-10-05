@@ -1,0 +1,15 @@
+{
+  "total_evaluations": 2748,
+  "total_cases": 2748,
+  "outcomes": {
+    "not_applicable": 2165,
+    "duty_met": 500,
+    "duty_unmet": 67,
+    "duty_met_via_delegation": 16
+  },
+  "cases_with_violations": 67,
+  "violation_rate_event_level": 0.02438136826783115,
+  "violation_rate_case_level": 0.02438136826783115,
+  "requires_senior_count": 583,
+  "avg_wait_hours": 431.80662959460847
+}

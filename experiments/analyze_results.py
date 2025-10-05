@@ -57,9 +57,19 @@ class ResultsAnalyzer:
         for file in self.results_dir.glob('exp1_*_eval.csv'):
             df = pd.read_csv(file)
             # Extract metadata from filename
-            parts = file.stem.replace('_eval', '').split('_')
-            policy_type = parts[1]  # p1_only, p2_only, both
-            cases = parts[2].replace('cases', '')
+            # Filename format: exp1_{policy_type}_{cases}cases_eval.csv
+            # where policy_type can be: p1_only, p2_only, both
+            filename = file.stem.replace('_eval', '')  # Remove _eval suffix
+
+            # Find the last occurrence of a number followed by 'cases'
+            import re
+            match = re.search(r'(\d+)cases$', filename)
+            if not match:
+                continue
+            cases = match.group(1)
+
+            # Extract policy type by removing exp1_ prefix and _{cases}cases suffix
+            policy_type = filename.replace('exp1_', '').replace(f'_{cases}cases', '')
 
             for _, row in df.iterrows():
                 self.exp1_data.append({

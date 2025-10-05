@@ -1,0 +1,26 @@
+Policy: P1_senior_approval_duty
+Threshold T: 20000
+Delegation window: 24 hours
+
+Loading event log from: data/BPI Challenge 2017.xes
+  Loading from cache: data\BPI Challenge 2017.cached.csv
+Loaded 1202267 events from 31509 cases
+
+Generating policy log...
+
+Role classification summary:
+  junior: 149 resources
+Traceback (most recent call last):
+  File "d:\GitHub\policymining\eval\policy_only\generate_policy_log_p1.py", line 353, in <module>
+    output_path = output_dir / 'policy_log.csv'
+    ^^^^^^
+  File "d:\GitHub\policymining\eval\policy_only\generate_policy_log_p1.py", line 338, in main
+    df = load_event_log(event_log_path)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\GitHub\policymining\eval\policy_only\generate_policy_log_p1.py", line 230, in generate_policy_log
+    'ts': row['timestamp'],
+             ^^^^^^^^^^^^^^
+  File "d:\GitHub\policymining\eval\policy_only\generate_policy_log_p1.py", line 143, in evaluate_p1_duty
+    elif junior_approval is not None:
+                    ^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__

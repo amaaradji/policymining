@@ -1,0 +1,28 @@
+# P1 Policy Configuration: Senior Approval Duty
+# For BPI Challenge 2017 dataset
+
+policy_config:
+  policy_id: "P1_senior_approval_duty"
+
+  # Threshold and timing
+  T: 25000              # Amount threshold for senior approval
+  delta_hours: 350      # Delegation window (hours) - ~14.5 days, between Q1 and median
+
+  # Activity mappings for BPI 2017
+  request_anchors:
+    - "A_Submitted"
+
+  approval_acts:
+    - "W_Validate application"
+    - "W_Approve offer"
+
+  target_acts:
+    - "O_Accepted"
+    - "A_Approved"
+
+  # Role classification
+  senior_regex: "(?i)(SENIOR|MANAGER)"
+
+  # Data paths
+  event_log_path: "../../data/BPI Challenge 2017.xes"
+  output_dir: "."

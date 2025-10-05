@@ -28,7 +28,7 @@ Starting experiments...
 Running: Exp1: p1_only with 200 cases
 Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_p1_only.yaml --out D:\GitHub\policymining\results\exp1_p1_only_200cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out D:\GitHub\policymining\results\exp1_p1_only_200cases_eval.csv --verbose
 ================================================================================
-Completed in 332.47 seconds
+Completed in 844.28 seconds
 ============================================================
 POLICY EVALUATION SUMMARY
 ============================================================
@@ -56,3 +56,601 @@ Approach: Policy-Aware
 Running: Exp1: p1_only with 500 cases
 Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_p1_only.yaml --out D:\GitHub\policymining\results\exp1_p1_only_500cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out D:\GitHub\policymining\results\exp1_p1_only_500cases_eval.csv --verbose
 ================================================================================
+Completed in 325.73 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.0000
+  Recall:    0.0000
+  F1 Score:  0.0000
+
+  True Positives:  0
+  False Positives: 0
+  False Negatives: 60113
+  True Negatives:  1142154
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 0
+
+============================================================
+
+
+[3/20] Exp1: p1_only with 1000 cases
+
+================================================================================
+Running: Exp1: p1_only with 1000 cases
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_p1_only.yaml --out D:\GitHub\policymining\results\exp1_p1_only_1000cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out D:\GitHub\policymining\results\exp1_p1_only_1000cases_eval.csv --verbose
+================================================================================
+Completed in 334.96 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.0000
+  Recall:    0.0000
+  F1 Score:  0.0000
+
+  True Positives:  0
+  False Positives: 0
+  False Negatives: 60113
+  True Negatives:  1142154
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 0
+
+============================================================
+
+
+[4/20] Exp1: p2_only with 200 cases
+
+================================================================================
+Running: Exp1: p2_only with 200 cases
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_p2_only.yaml --out D:\GitHub\policymining\results\exp1_p2_only_200cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out D:\GitHub\policymining\results\exp1_p2_only_200cases_eval.csv --verbose
+================================================================================
+Completed in 233.60 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.0000
+  Recall:    0.0000
+  F1 Score:  0.0000
+
+  True Positives:  0
+  False Positives: 0
+  False Negatives: 60113
+  True Negatives:  1142154
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 0
+
+============================================================
+
+
+[5/20] Exp1: p2_only with 500 cases
+
+================================================================================
+Running: Exp1: p2_only with 500 cases
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_p2_only.yaml --out D:\GitHub\policymining\results\exp1_p2_only_500cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out D:\GitHub\policymining\results\exp1_p2_only_500cases_eval.csv --verbose
+================================================================================
+Completed in 241.75 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.0000
+  Recall:    0.0000
+  F1 Score:  0.0000
+
+  True Positives:  0
+  False Positives: 0
+  False Negatives: 60113
+  True Negatives:  1142154
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 0
+
+============================================================
+
+
+[6/20] Exp1: p2_only with 1000 cases
+
+================================================================================
+Running: Exp1: p2_only with 1000 cases
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_p2_only.yaml --out D:\GitHub\policymining\results\exp1_p2_only_1000cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out D:\GitHub\policymining\results\exp1_p2_only_1000cases_eval.csv --verbose
+================================================================================
+Completed in 234.61 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.0000
+  Recall:    0.0000
+  F1 Score:  0.0000
+
+  True Positives:  0
+  False Positives: 0
+  False Negatives: 60113
+  True Negatives:  1142154
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 0
+
+============================================================
+
+
+[7/20] Exp1: both with 200 cases
+
+================================================================================
+Running: Exp1: both with 200 cases
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_both.yaml --out D:\GitHub\policymining\results\exp1_both_200cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out D:\GitHub\policymining\results\exp1_both_200cases_eval.csv --verbose
+================================================================================
+Completed in 342.43 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.1215
+  Recall:    0.0400
+  F1 Score:  0.0602
+
+  True Positives:  2406
+  False Positives: 17391
+  False Negatives: 57707
+  True Negatives:  1124763
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 19797
+
+============================================================
+
+
+[8/20] Exp1: both with 500 cases
+
+================================================================================
+Running: Exp1: both with 500 cases
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_both.yaml --out D:\GitHub\policymining\results\exp1_both_500cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out D:\GitHub\policymining\results\exp1_both_500cases_eval.csv --verbose
+================================================================================
+Completed in 333.38 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.1215
+  Recall:    0.0400
+  F1 Score:  0.0602
+
+  True Positives:  2406
+  False Positives: 17391
+  False Negatives: 57707
+  True Negatives:  1124763
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 19797
+
+============================================================
+
+
+[9/20] Exp1: both with 1000 cases
+
+================================================================================
+Running: Exp1: both with 1000 cases
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_both.yaml --out D:\GitHub\policymining\results\exp1_both_1000cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out D:\GitHub\policymining\results\exp1_both_1000cases_eval.csv --verbose
+================================================================================
+Completed in 335.82 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.1215
+  Recall:    0.0400
+  F1 Score:  0.0602
+
+  True Positives:  2406
+  False Positives: 17391
+  False Negatives: 57707
+  True Negatives:  1124763
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 19797
+
+============================================================
+
+
+[10/20] Exp2: Violation rate 1.0%
+
+================================================================================
+Running: Exp2: Violation rate 1.0%
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_both.yaml --out D:\GitHub\policymining\results\exp2_rate_01pct_policy_log.csv --evaluate --violation-rate 0.01 --eval-out D:\GitHub\policymining\results\exp2_rate_01pct_eval.csv --verbose
+================================================================================
+Completed in 331.91 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.0252
+  Recall:    0.0390
+  F1 Score:  0.0306
+
+  True Positives:  469
+  False Positives: 18128
+  False Negatives: 11553
+  True Negatives:  1172117
+
+  Total Actual Violations:   12022
+  Total Detected Violations: 18597
+
+============================================================
+
+
+[11/20] Exp2: Violation rate 3.0%
+
+================================================================================
+Running: Exp2: Violation rate 3.0%
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_both.yaml --out D:\GitHub\policymining\results\exp2_rate_03pct_policy_log.csv --evaluate --violation-rate 0.03 --eval-out D:\GitHub\policymining\results\exp2_rate_03pct_eval.csv --verbose
+================================================================================
+Completed in 1225.41 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.0764
+  Recall:    0.0407
+  F1 Score:  0.0531
+
+  True Positives:  1467
+  False Positives: 17739
+  False Negatives: 34601
+  True Negatives:  1148460
+
+  Total Actual Violations:   36068
+  Total Detected Violations: 19206
+
+============================================================
+
+
+[12/20] Exp2: Violation rate 5.0%
+
+================================================================================
+Running: Exp2: Violation rate 5.0%
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_both.yaml --out D:\GitHub\policymining\results\exp2_rate_05pct_policy_log.csv --evaluate --violation-rate 0.05 --eval-out D:\GitHub\policymining\results\exp2_rate_05pct_eval.csv --verbose
+================================================================================
+Completed in 373.67 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.1215
+  Recall:    0.0400
+  F1 Score:  0.0602
+
+  True Positives:  2406
+  False Positives: 17391
+  False Negatives: 57707
+  True Negatives:  1124763
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 19797
+
+============================================================
+
+
+[13/20] Exp2: Violation rate 10.0%
+
+================================================================================
+Running: Exp2: Violation rate 10.0%
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_both.yaml --out D:\GitHub\policymining\results\exp2_rate_10pct_policy_log.csv --evaluate --violation-rate 0.1 --eval-out D:\GitHub\policymining\results\exp2_rate_10pct_eval.csv --verbose
+================================================================================
+Completed in 415.10 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.2258
+  Recall:    0.0400
+  F1 Score:  0.0679
+
+  True Positives:  4806
+  False Positives: 16477
+  False Negatives: 115420
+  True Negatives:  1065564
+
+  Total Actual Violations:   120226
+  Total Detected Violations: 21283
+
+============================================================
+
+
+[14/20] Exp2: Violation rate 15.0%
+
+================================================================================
+Running: Exp2: Violation rate 15.0%
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_both.yaml --out D:\GitHub\policymining\results\exp2_rate_15pct_policy_log.csv --evaluate --violation-rate 0.15 --eval-out D:\GitHub\policymining\results\exp2_rate_15pct_eval.csv --verbose
+================================================================================
+Completed in 869.41 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.3180
+  Recall:    0.0402
+  F1 Score:  0.0714
+
+  True Positives:  7256
+  False Positives: 15564
+  False Negatives: 173084
+  True Negatives:  1006363
+
+  Total Actual Violations:   180340
+  Total Detected Violations: 22820
+
+============================================================
+
+
+[15/20] Exp2: Violation rate 20.0%
+
+================================================================================
+Running: Exp2: Violation rate 20.0%
+Command: python D:\GitHub\policymining\policy_engine\policy_engine.py --events D:\GitHub\policymining\data\BPI Challenge 2017.xes --config D:\GitHub\policymining\experiments\configs\config_both.yaml --out D:\GitHub\policymining\results\exp2_rate_20pct_policy_log.csv --evaluate --violation-rate 0.2 --eval-out D:\GitHub\policymining\results\exp2_rate_20pct_eval.csv --verbose
+================================================================================
+
+================================================================================
+EXPERIMENT 1: Policy Type Comparison
+================================================================================
+
+================================================================================
+EXPERIMENT 2: Violation Rate Sensitivity Analysis
+================================================================================
+
+================================================================================
+EXPERIMENT 3: Ground Truth Comparison (GT1 vs GT2)
+================================================================================
+
+================================================================================
+EXPERIMENT 4: Scalability Analysis
+================================================================================
+
+
+Total experiments to run: 20
+This may take a while depending on your system...
+
+Starting experiments...
+
+
+[1/20] Exp1: p1_only with 200 cases - SKIPPED (already completed)
+
+[2/20] Exp1: p1_only with 500 cases - SKIPPED (already completed)
+
+[3/20] Exp1: p1_only with 1000 cases - SKIPPED (already completed)
+
+[4/20] Exp1: p2_only with 200 cases - SKIPPED (already completed)
+
+[5/20] Exp1: p2_only with 500 cases - SKIPPED (already completed)
+
+[6/20] Exp1: p2_only with 1000 cases - SKIPPED (already completed)
+
+[7/20] Exp1: both with 200 cases - SKIPPED (already completed)
+
+[8/20] Exp1: both with 500 cases - SKIPPED (already completed)
+
+[9/20] Exp1: both with 1000 cases - SKIPPED (already completed)
+
+[10/20] Exp2: Violation rate 1.0% - SKIPPED (already completed)
+
+[11/20] Exp2: Violation rate 3.0% - SKIPPED (already completed)
+
+[12/20] Exp2: Violation rate 5.0% - SKIPPED (already completed)
+
+[13/20] Exp2: Violation rate 10.0% - SKIPPED (already completed)
+
+[14/20] Exp2: Violation rate 15.0% - SKIPPED (already completed)
+
+[15/20] Exp2: Violation rate 20.0%
+
+================================================================================
+Running: Exp2: Violation rate 20.0%
+Command: python d:\GitHub\policymining\policy_engine\policy_engine.py --events d:\GitHub\policymining\data\BPI Challenge 2017.xes --config d:\GitHub\policymining\experiments\configs\config_both.yaml --out d:\GitHub\policymining\results\exp2_rate_20pct_policy_log.csv --evaluate --violation-rate 0.2 --eval-out d:\GitHub\policymining\results\exp2_rate_20pct_eval.csv --verbose
+================================================================================
+Completed in 400.71 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.3980
+  Recall:    0.0403
+  F1 Score:  0.0732
+
+  True Positives:  9695
+  False Positives: 14662
+  False Negatives: 230758
+  True Negatives:  947152
+
+  Total Actual Violations:   240453
+  Total Detected Violations: 24357
+
+============================================================
+
+
+[16/20] Exp3: Ground truth comparison
+
+================================================================================
+Running: Exp3: Ground truth comparison
+Command: python d:\GitHub\policymining\policy_engine\policy_engine.py --events d:\GitHub\policymining\data\BPI Challenge 2017.xes --config d:\GitHub\policymining\experiments\configs\config_both.yaml --out d:\GitHub\policymining\results\exp3_ground_truth_policy_log.csv --evaluate --violation-rate 0.05 --eval-out d:\GitHub\policymining\results\exp3_ground_truth_eval.csv --verbose
+================================================================================
+Completed in 330.56 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.1215
+  Recall:    0.0400
+  F1 Score:  0.0602
+
+  True Positives:  2406
+  False Positives: 17391
+  False Negatives: 57707
+  True Negatives:  1124763
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 19797
+
+============================================================
+
+
+[17/20] Exp4: Scalability test with 100 cases
+
+================================================================================
+Running: Exp4: Scalability test with 100 cases
+Command: python d:\GitHub\policymining\policy_engine\policy_engine.py --events d:\GitHub\policymining\data\BPI Challenge 2017.xes --config d:\GitHub\policymining\experiments\configs\config_both.yaml --out d:\GitHub\policymining\results\exp4_scalability_100cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out d:\GitHub\policymining\results\exp4_scalability_100cases_eval.csv --verbose
+================================================================================
+Completed in 348.43 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.1215
+  Recall:    0.0400
+  F1 Score:  0.0602
+
+  True Positives:  2406
+  False Positives: 17391
+  False Negatives: 57707
+  True Negatives:  1124763
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 19797
+
+============================================================
+
+
+[18/20] Exp4: Scalability test with 500 cases
+
+================================================================================
+Running: Exp4: Scalability test with 500 cases
+Command: python d:\GitHub\policymining\policy_engine\policy_engine.py --events d:\GitHub\policymining\data\BPI Challenge 2017.xes --config d:\GitHub\policymining\experiments\configs\config_both.yaml --out d:\GitHub\policymining\results\exp4_scalability_500cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out d:\GitHub\policymining\results\exp4_scalability_500cases_eval.csv --verbose
+================================================================================
+Completed in 338.30 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.1215
+  Recall:    0.0400
+  F1 Score:  0.0602
+
+  True Positives:  2406
+  False Positives: 17391
+  False Negatives: 57707
+  True Negatives:  1124763
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 19797
+
+============================================================
+
+
+[19/20] Exp4: Scalability test with 1000 cases
+
+================================================================================
+Running: Exp4: Scalability test with 1000 cases
+Command: python d:\GitHub\policymining\policy_engine\policy_engine.py --events d:\GitHub\policymining\data\BPI Challenge 2017.xes --config d:\GitHub\policymining\experiments\configs\config_both.yaml --out d:\GitHub\policymining\results\exp4_scalability_1000cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out d:\GitHub\policymining\results\exp4_scalability_1000cases_eval.csv --verbose
+================================================================================
+Completed in 341.42 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.1215
+  Recall:    0.0400
+  F1 Score:  0.0602
+
+  True Positives:  2406
+  False Positives: 17391
+  False Negatives: 57707
+  True Negatives:  1124763
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 19797
+
+============================================================
+
+
+[20/20] Exp4: Scalability test with 5000 cases
+
+================================================================================
+Running: Exp4: Scalability test with 5000 cases
+Command: python d:\GitHub\policymining\policy_engine\policy_engine.py --events d:\GitHub\policymining\data\BPI Challenge 2017.xes --config d:\GitHub\policymining\experiments\configs\config_both.yaml --out d:\GitHub\policymining\results\exp4_scalability_5000cases_policy_log.csv --evaluate --violation-rate 0.05 --eval-out d:\GitHub\policymining\results\exp4_scalability_5000cases_eval.csv --verbose
+================================================================================
+Completed in 353.94 seconds
+============================================================
+POLICY EVALUATION SUMMARY
+============================================================
+
+Approach: Policy-Aware
+----------------------------------------
+  Precision: 0.1215
+  Recall:    0.0400
+  F1 Score:  0.0602
+
+  True Positives:  2406
+  False Positives: 17391
+  False Negatives: 57707
+  True Negatives:  1124763
+
+  Total Actual Violations:   60113
+  Total Detected Violations: 19797
+
+============================================================
+
+
+================================================================================
+EXPERIMENT EXECUTION SUMMARY
+================================================================================
+
+Total experiments: 20
+Successful: 20
+Failed: 0
+
+Results saved to: d:\GitHub\policymining\results
+
+Next steps:
+1. Run: python experiments/analyze_results.py
+2. Check generated figures in paper_sections/
+3. Review evaluation.tex for Overleaf

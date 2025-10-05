@@ -1,21 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git pull:*)",
-      "Bash(python:*)",
-      "Bash(git add:*)",
-      "Bash(git commit:*)",
-      "Bash(git push:*)",
-      "Bash(git config:*)",
-      "Bash(git mv:*)",
-      "Bash(git rm:*)",
-      "Bash(git reset:*)",
-      "Bash(grep:*)",
-      "Bash(unzip:*)",
-      "Bash(gunzip:*)",
-      "Bash(pip install:*)",
-      "Bash(tee:*)",
-      "Bash(cat:*)"
+      "Bash(git ls-tree:*)"
     ],
     "deny": [],
     "ask": []
