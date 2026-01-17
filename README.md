@@ -200,26 +200,7 @@ The next phase will integrate policy logs with process model alignment:
 4. **Test additional policies** (prohibitions, permissions, cardinality constraints)
 5. **Evaluate generalizability** on additional datasets
 
-## Citation
 
-If you use this framework in your research, please cite:
-
-```bibtex
-@inproceedings{policymining2025,
-  title={Complementing Event Logs with Policy Logs for Business Process Mining},
-  author={[Your Names]},
-  booktitle={[Conference Name]},
-  year={2025}
-}
-```
-
-## License
-
-[Specify your license here]
-
-## Contact
-
-[Your contact information]
 
 ## Acknowledgments
 
