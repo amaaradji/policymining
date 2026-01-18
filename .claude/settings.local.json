@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git ls-tree:*)"
+      "Bash(git ls-tree:*)",
+      "Bash(git credential-manager delete:*)",
+      "Bash(python:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(tee:*)",
+      "Bash(git check-ignore:*)"
     ],
     "deny": [],
     "ask": []

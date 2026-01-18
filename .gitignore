@@ -34,6 +34,10 @@ paper_sections/
 *.swo
 *~
 
+# Claude Code
+.claude/
+CLAUDE.md
+
 # OS
 .DS_Store
 Thumbs.db
@@ -41,3 +45,7 @@ Thumbs.db
 
 # Experiment results (old runs, keep only final in eval/)
 results/
+
+# Synthetic evaluation outputs (generated files)
+eval/synthetic/outputs/
+eval/synthetic/paper_ready/
